@@ -1,0 +1,12 @@
+{
+  "name": "arquivador",
+  "version": "1.0.0",
+  "description": "Leitor e escritor de arquivos tar no formato POSIX ustar, escrito do zero. O tar do sistema le o que ele gera. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "arq": "src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test testes/*.test.js" },
+  "keywords": ["tar", "ustar", "posix", "arquivo"],
+  "license": "MIT"
+}
